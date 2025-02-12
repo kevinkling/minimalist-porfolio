@@ -1,12 +1,12 @@
 ---
 import { basics } from "@CV";
-import Section from "@/components/Section.astro";
-import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
 import GitHub from "@/icons/GitHub.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
-import X from "@/icons/X.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import Section from "@/components/Section.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+import X from "@/icons/X.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -38,14 +38,24 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
       <footer class="no-print">
         {
           email && (
-            <a href={`mailto:${email}`} title={`Enviar un correo a ${name} al correo ${email}`} target="_blank" rel="noopener noreferrer">
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Mail />
             </a>
           )
         }
         {
           phone && (
-            <a href={`tel:${phone}`} title={`LLamar por telefono a  a ${name} al correo ${phone}`} target="_blank" rel="noopener noreferrer">
+            <a
+              href={`tel:${phone}`}
+              title={`LLamar por telefono a  a ${name} al correo ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Phone />
             </a>
           )
@@ -55,7 +65,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
             const Icon = SOCIAL_ICONS[network];
 
             return (
-              <a href={url} title={`Visitar el perfil de ${name} en ${network}`} target="_blank" rel="noopener noreferrer">
+              <a
+                href={url}
+                title={`Visitar el perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Icon />
               </a>
             );

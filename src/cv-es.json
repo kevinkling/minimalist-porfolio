@@ -4,9 +4,9 @@
     "label": "Desarrollador Backend con experiencia en Java, creando soluciones robustas y escalables.",
     "image": "/me.webp",
     "email": "kevin.99.kling@gmail.com",
-    "phone": "+completar",
+    "phone": "",
     "url": "https://kevinklingresume.site",
-    "summary": "completar.",
+    "summary": "Desarrollador backend con experiencia en Java, SQL y microservicios. Mi interés por la programación comenzó en la secundaria y se consolidó en la universidad, donde aprendí Pascal y Java. Desde entonces, he desarrollado múltiples proyectos personales y profesionales. Actualmente, trabajo en una empresa multinacional y sigo ampliando mis conocimientos en desarrollo web.",
     "location": {
       "address": "",
       "postalCode": "3200",
@@ -35,7 +35,14 @@
       "startDate": "2022-05-05",
       "endDate": null,
       "summary": "Desarrollo y mantengo funcionalidades para el módulo de Constructoras, una solución dentro del ERP de Finnegans diseñada para empresas del sector de la construcción, optimizando procesos y mejorando la gestión de proyectos.",
-      "highlights": ["Desarrollo de APIs", "Microservicios", "Optimización SQL", "Testing", "Integración", "Automatización"]
+      "highlights": [
+        "Desarrollo de APIs",
+        "Microservicios",
+        "Optimización SQL",
+        "Testing",
+        "Integración",
+        "Automatización"
+      ]
     },
     {
       "name": "Proyectos Personales y Académicos",
@@ -44,7 +51,11 @@
       "startDate": "2020-01-02",
       "endDate": "2022-05-05",
       "summary": "Durante este período, me dediqué a desarrollar proyectos personales y académicos para seguir aprendiendo y afianzar mis conocimientos en programación. Creé soluciones para diversos casos de uso y aprendí a trabajar con distintas tecnologías.",
-      "highlights": ["Proyectos personales", "Aplicación de conocimientos", "Nuevas tecnologías"]
+      "highlights": [
+        "Proyectos personales",
+        "Aplicación de conocimientos",
+        "Nuevas tecnologías"
+      ]
     },
     {
       "name": "Emprendimiento de Servicio Técnico",
@@ -53,7 +64,11 @@
       "startDate": "2017-01-01",
       "endDate": "2020-12-31",
       "summary": "Fundé un emprendimiento de servicio técnico junto a un compañero, especializado en reparación y mantenimiento de computadoras. Ofrecimos atención personalizada tanto a particulares como a pequeñas empresas, encargándonos de diagnosticar y solucionar problemas de hardware y software.",
-      "highlights": ["Reparación de hardware y software", "Mantenimiento preventivo y correctivo", "Atención al cliente"]
+      "highlights": [
+        "Reparación de hardware y software",
+        "Mantenimiento preventivo y correctivo",
+        "Atención al cliente"
+      ]
     }
   ],
   "education": [
@@ -61,68 +76,58 @@
       "institution": "Universidad Nacional de Entre Ríos - FCAD",
       "url": "https://www.fcad.uner.edu.ar/",
       "area": "Tecnicatura en Desarrollo Web",
-      "studyType": "Tecnicatura", 
+      "studyType": "Tecnicatura",
       "startDate": "2024-03-01",
-      "endDate": "2027-03-01",
-      "score": "", 
-      "courses": ["Programación", "Diseño Web", "Bases de Datos", "Desarrollo de Aplicaciones"]
+      "endDate": null,
+      "score": "",
+      "courses": [
+        "Programación",
+        "Diseño Web",
+        "Bases de Datos",
+        "Desarrollo de Aplicaciones"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "name": "Java",
+      "level": "Intermedio",
+      "keywords": ["Backend", "Microservicios", "Spring Boot"]
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "name": "SQL",
+      "level": "Intermedio",
+      "keywords": ["Bases de Datos", "Consultas", "Optimización"]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "level": "Intermedio",
+      "keywords": ["Frontend", "Desarrollo Web", "ES6+"]
     },
     {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
+      "name": "Python",
+      "level": "Intermedio",
+      "keywords": ["Scripting", "Automatización", "APIs"]
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"]
+      "name": "Git & GitHub",
+      "level": "Intermedio",
+      "keywords": ["Control de Versiones", "Colaboración", "Repositorios"]
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "name": "Linux",
+      "level": "Intermedio",
+      "keywords": ["CLI", "Administración", "Shell Scripting"]
     },
     {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"]
+      "name": "AWS",
+      "level": "Intermedio",
+      "keywords": ["Cloud", "Infraestructura", "Servicios Web"]
     },
     {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "name": "HTML/CSS",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Estilos", "Responsive Design"]
     }
   ],
   "languages": [
@@ -132,7 +137,7 @@
     },
     {
       "language": "Inglés",
-      "fluency": "A1 Elementary Level"
+      "fluency": "Nivel A1 - Básico"
     }
   ],
   "projects": [
